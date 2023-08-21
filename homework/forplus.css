@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,yellow,orange,violet);
+}
+.card{
+    overflow: hidden;
+    width: 300px;
+    height: 150px;
+    background: white;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 10px;
+    transition: 1s;
+}
+.card:hover{
+    height: 250px;
+    cursor: pointer;
+}
+.photo{
+    width: 100px;
+    height: 100px;
+    transform: translateY(5px);
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.photo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.card p{
+    font-size: 14px;
+    color: #0009;
+}
+.collection{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.items{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-left: 20px;
+}
+.btns{
+    width: 100%;
+    justify-content: space-between;
+    height: 30px;
+    margin-top: 10px;
+
+}
+.first__btn{
+    width: 40%;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    font-size: 16px;
+}
+.second__btn{
+    width: 40%;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: gray;
+    font-size: 16px;
+    margin-left: 10px;
+}
